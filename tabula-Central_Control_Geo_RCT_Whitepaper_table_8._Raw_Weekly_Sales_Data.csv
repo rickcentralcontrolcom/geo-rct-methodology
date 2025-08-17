@@ -556,7 +556,8 @@ DATA QUALITY:,,,,,,
 - Sales data completeness: 99.7%,,,,,,
 - DMA assignment adherence: 100%,,,,,,
 - Spillover detected: <2% in 4 Control DMAs,,,,,,
-"0 < LIFT < TARGETNOCOLIFT ≤ 0ANYPA",,,,,,
+"0 < LIFT < TARGETNOCO
+LIFT ≤ 0ANYPA",,,,,,
 0 < LIFT < TARGET,NO,CO,,,,
 LIFT ≤ 0,ANY,PA,,,,
 • Is there a frequency threshold?,,,,,,
