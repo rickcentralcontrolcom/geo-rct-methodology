@@ -1,4 +1,34 @@
-"SIMULATED ROLLING THUNDER: 3% LIFTCONTROLTREATMENTEND OF PRE PERIOD120ROLLING THUNDER115SIMULATION EXPERIMENTPERIOD ANALYSIS:110CONTROL MEAN: 104.0105(N=821 OBSERVATIONS)TREATMENT MEAN: 108.5100(N=512 OBSERVATIONS)95OBSERVED LIFT: 4.3%T-STATISTIC: 2.8090P-VALUE: 0.005205-0105-1506-0106-1507-0107-1508-0108-15WEEK (MM-DD)▲ Simulated Rolling Thunder Results: Treatment vs. Control Trend. This figure presents the outcome of a power-analysissimulation of a geo-experiment using the Rolling Thunder framework with historical sales data from a real Fortune 500 company. Six testgroups (A-F) and one control group were created through random assignment of 150 DMAs, with each test group receiving treatment for4 consecutive weeks starting in staggered fashion (Group A: weeks 1-4, Group B: weeks 2-5, etc.). The Rolling Thunder design enhancesthe control group by incorporating pre-treatment observations from test groups B through F before their respective treatment periodsbegin, naturally increasing the effective control sample size and improving balance. A 3% lift was artificially applied to each test groupduring its treatment period, following an 8-week pre-period used for normalization to each DMA’s baseline (index = 100). The normalizedweekly sales index shows clear divergence between the aggregated Treatment and enhanced Control groups during the 9-week experimentperiod. Statistical analysis using a two-sample t-test yields t = 2.16, p = 0.0363, confirming detection of the simulated lift at the 95%confidence level. The underlying sales data and randomization are real; only the treatment lift was simulated as part of a power analysisto assess the Rolling Thunder framework’s statistical sensitivity. This would be one of thousands of simulations in the power analysis.”This demonstrates that the combination of control enhancement through staggered entry and DMA-level normalization provides robustdetection capability for modest treatment effects without requiring stratification or other complex balancing techniques.",,,,,,
+"SIMULATED ROLLING THUNDER: 3% LIFTCONTROL
+TREATMENT
+END OF PRE PERIOD
+120
+ROLLING THUNDER115
+SIMULATION EXPERIMENT
+PERIOD ANALYSIS:110
+CONTROL MEAN: 104.0
+105(N=821 OBSERVATIONS)
+TREATMENT MEAN: 108.5
+100
+(N=512 OBSERVATIONS)
+95OBSERVED LIFT: 4.3%
+T-STATISTIC: 2.80
+90
+P-VALUE: 0.0052
+05-0105-1506-0106-1507-0107-1508-0108-15
+WEEK (MM-DD)
+▲ Simulated Rolling Thunder Results: Treatment vs. Control Trend. This figure presents the outcome of a power-analysis
+simulation of a geo-experiment using the Rolling Thunder framework with historical sales data from a real Fortune 500 company. Six test
+groups (A-F) and one control group were created through random assignment of 150 DMAs, with each test group receiving treatment for
+4 consecutive weeks starting in staggered fashion (Group A: weeks 1-4, Group B: weeks 2-5, etc.). The Rolling Thunder design enhances
+the control group by incorporating pre-treatment observations from test groups B through F before their respective treatment periods
+begin, naturally increasing the effective control sample size and improving balance. A 3% lift was artificially applied to each test group
+during its treatment period, following an 8-week pre-period used for normalization to each DMA’s baseline (index = 100). The normalized
+weekly sales index shows clear divergence between the aggregated Treatment and enhanced Control groups during the 9-week experiment
+period. Statistical analysis using a two-sample t-test yields t = 2.16, p = 0.0363, confirming detection of the simulated lift at the 95%
+confidence level. The underlying sales data and randomization are real; only the treatment lift was simulated as part of a power analysis
+to assess the Rolling Thunder framework’s statistical sensitivity. This would be one of thousands of simulations in the power analysis.”
+This demonstrates that the combination of control enhancement through staggered entry and DMA-level normalization provides robust
+detection capability for modest treatment effects without requiring stratification or other complex balancing techniques.",,,,,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -6,7 +36,37 @@
 ,,,,,,
 ,,,,,,
 ,,,,,,
-"SIMULATED ROLLING THUNDER: 3% LIFTCONTROLTREATMENTEND OF PRE PERIOD120ROLLING THUNDER115SIMULATION EXPERIMENTPERIOD ANALYSIS:110CONTROL MEAN: 104.0105(N=821 OBSERVATIONS)TREATMENT MEAN: 108.5100(N=512 OBSERVATIONS)95OBSERVED LIFT: 4.3%T-STATISTIC: 2.8090P-VALUE: 0.005205-0105-1506-0106-1507-0107-1508-0108-15WEEK (MM-DD)▲ Simulated Rolling Thunder Results: Treatment vs. Control Trend. This figure presents the outcome of a power-analysissimulation of a geo-experiment using the Rolling Thunder framework with historical sales data from a real Fortune 500 company. Six testgroups (A-F) and one control group were created through random assignment of 150 DMAs, with each test group receiving treatment for4 consecutive weeks starting in staggered fashion (Group A: weeks 1-4, Group B: weeks 2-5, etc.). The Rolling Thunder design enhancesthe control group by incorporating pre-treatment observations from test groups B through F before their respective treatment periodsbegin, naturally increasing the effective control sample size and improving balance. A 3% lift was artificially applied to each test groupduring its treatment period, following an 8-week pre-period used for normalization to each DMA’s baseline (index = 100). The normalizedweekly sales index shows clear divergence between the aggregated Treatment and enhanced Control groups during the 9-week experimentperiod. Statistical analysis using a two-sample t-test yields t = 2.16, p = 0.0363, confirming detection of the simulated lift at the 95%confidence level. The underlying sales data and randomization are real; only the treatment lift was simulated as part of a power analysisto assess the Rolling Thunder framework’s statistical sensitivity. This would be one of thousands of simulations in the power analysis.”This demonstrates that the combination of control enhancement through staggered entry and DMA-level normalization provides robustdetection capability for modest treatment effects without requiring stratification or other complex balancing techniques.",,,,,,
+"SIMULATED ROLLING THUNDER: 3% LIFTCONTROL
+TREATMENT
+END OF PRE PERIOD
+120
+ROLLING THUNDER115
+SIMULATION EXPERIMENT
+PERIOD ANALYSIS:110
+CONTROL MEAN: 104.0
+105(N=821 OBSERVATIONS)
+TREATMENT MEAN: 108.5
+100
+(N=512 OBSERVATIONS)
+95OBSERVED LIFT: 4.3%
+T-STATISTIC: 2.80
+90
+P-VALUE: 0.0052
+05-0105-1506-0106-1507-0107-1508-0108-15
+WEEK (MM-DD)
+▲ Simulated Rolling Thunder Results: Treatment vs. Control Trend. This figure presents the outcome of a power-analysis
+simulation of a geo-experiment using the Rolling Thunder framework with historical sales data from a real Fortune 500 company. Six test
+groups (A-F) and one control group were created through random assignment of 150 DMAs, with each test group receiving treatment for
+4 consecutive weeks starting in staggered fashion (Group A: weeks 1-4, Group B: weeks 2-5, etc.). The Rolling Thunder design enhances
+the control group by incorporating pre-treatment observations from test groups B through F before their respective treatment periods
+begin, naturally increasing the effective control sample size and improving balance. A 3% lift was artificially applied to each test group
+during its treatment period, following an 8-week pre-period used for normalization to each DMA’s baseline (index = 100). The normalized
+weekly sales index shows clear divergence between the aggregated Treatment and enhanced Control groups during the 9-week experiment
+period. Statistical analysis using a two-sample t-test yields t = 2.16, p = 0.0363, confirming detection of the simulated lift at the 95%
+confidence level. The underlying sales data and randomization are real; only the treatment lift was simulated as part of a power analysis
+to assess the Rolling Thunder framework’s statistical sensitivity. This would be one of thousands of simulations in the power analysis.”
+This demonstrates that the combination of control enhancement through staggered entry and DMA-level normalization provides robust
+detection capability for modest treatment effects without requiring stratification or other complex balancing techniques.",,,,,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -582,7 +642,8 @@ DATA QUALITY:,,,,,,
 - Sales data completeness: 99.7%,,,,,,
 - DMA assignment adherence: 100%,,,,,,
 - Spillover detected: <2% in 4 Control DMAs,,,,,,
-"0 < LIFT < TARGETNOCOLIFT ≤ 0ANYPA",,,,,,
+"0 < LIFT < TARGETNOCO
+LIFT ≤ 0ANYPA",,,,,,
 0 < LIFT < TARGET,NO,CO,,,,
 LIFT ≤ 0,ANY,PA,,,,
 • Is there a frequency threshold?,,,,,,
