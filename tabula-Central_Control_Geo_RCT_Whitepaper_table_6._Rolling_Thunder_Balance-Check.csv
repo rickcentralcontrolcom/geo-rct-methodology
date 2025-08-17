@@ -1,4 +1,27 @@
-"ROLLING THUNDER BALANCE CHECK(6 GROUPS, 4 WEEKS EACH)2,500CONTROLTREATMENT2,000WHISKERS: STANDARD ERROR1,5001,000500T STATISTIC = 0.00P-VALUE = 0.997CONTROLTREATMENT▲ This visualization demonstrates the balance achieved using the Rolling Thunder experimental framework with six testgroups (A-F) and one control group during a 9-week experimental window, where the design enhances the control groupby incorporating pre-treatment observations from test groups B through F before their respective 4-week treatmentperiods begin. With 150 DMAs randomly assigned across seven groups, the enhanced Control group achieved a mean of2,136 sales per week (standard error = 335) compared to the Test group’s mean of 2,134 sales per week (standard error =368), with a two-sample t-test yielding t statistic = 0.03, p-value = 0.997, confirming no statistically significant differencebetween groups (<1% difference in means). The custom boxplot format displays the interquartile range (box), median(horizontal line within box), mean (thick horizontal line), and whiskers extending to mean ± 1 standard error, with nooutliers shown. These values from a Fortune 500 company’s actual sales data demonstrate how the Rolling Thunderframework naturally improves balance through random assignment without stratification or re-weighting, supportingrobust causal inference while maintaining simplicity, with DMA-level normalization in the analysis phase furtherensuring treatment effects aren’t confounded by residual baseline differences.",,,,,,
+"ROLLING THUNDER BALANCE CHECK
+(6 GROUPS, 4 WEEKS EACH)
+2,500
+CONTROL
+TREATMENT
+2,000WHISKERS: STANDARD ERROR
+1,500
+1,000
+500
+T STATISTIC = 0.00
+P-VALUE = 0.997
+CONTROLTREATMENT
+▲ This visualization demonstrates the balance achieved using the Rolling Thunder experimental framework with six test
+groups (A-F) and one control group during a 9-week experimental window, where the design enhances the control group
+by incorporating pre-treatment observations from test groups B through F before their respective 4-week treatment
+periods begin. With 150 DMAs randomly assigned across seven groups, the enhanced Control group achieved a mean of
+2,136 sales per week (standard error = 335) compared to the Test group’s mean of 2,134 sales per week (standard error =
+368), with a two-sample t-test yielding t statistic = 0.03, p-value = 0.997, confirming no statistically significant difference
+between groups (<1% difference in means). The custom boxplot format displays the interquartile range (box), median
+(horizontal line within box), mean (thick horizontal line), and whiskers extending to mean ± 1 standard error, with no
+outliers shown. These values from a Fortune 500 company’s actual sales data demonstrate how the Rolling Thunder
+framework naturally improves balance through random assignment without stratification or re-weighting, supporting
+robust causal inference while maintaining simplicity, with DMA-level normalization in the analysis phase further
+ensuring treatment effects aren’t confounded by residual baseline differences.",,,,,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -6,7 +29,30 @@
 ,,,,,,
 ,,,,,,
 ,,,,,,
-"ROLLING THUNDER BALANCE CHECK(6 GROUPS, 4 WEEKS EACH)2,500CONTROLTREATMENT2,000WHISKERS: STANDARD ERROR1,5001,000500T STATISTIC = 0.00P-VALUE = 0.997CONTROLTREATMENT▲ This visualization demonstrates the balance achieved using the Rolling Thunder experimental framework with six testgroups (A-F) and one control group during a 9-week experimental window, where the design enhances the control groupby incorporating pre-treatment observations from test groups B through F before their respective 4-week treatmentperiods begin. With 150 DMAs randomly assigned across seven groups, the enhanced Control group achieved a mean of2,136 sales per week (standard error = 335) compared to the Test group’s mean of 2,134 sales per week (standard error =368), with a two-sample t-test yielding t statistic = 0.03, p-value = 0.997, confirming no statistically significant differencebetween groups (<1% difference in means). The custom boxplot format displays the interquartile range (box), median(horizontal line within box), mean (thick horizontal line), and whiskers extending to mean ± 1 standard error, with nooutliers shown. These values from a Fortune 500 company’s actual sales data demonstrate how the Rolling Thunderframework naturally improves balance through random assignment without stratification or re-weighting, supportingrobust causal inference while maintaining simplicity, with DMA-level normalization in the analysis phase furtherensuring treatment effects aren’t confounded by residual baseline differences.",,,,,,
+"ROLLING THUNDER BALANCE CHECK
+(6 GROUPS, 4 WEEKS EACH)
+2,500
+CONTROL
+TREATMENT
+2,000WHISKERS: STANDARD ERROR
+1,500
+1,000
+500
+T STATISTIC = 0.00
+P-VALUE = 0.997
+CONTROLTREATMENT
+▲ This visualization demonstrates the balance achieved using the Rolling Thunder experimental framework with six test
+groups (A-F) and one control group during a 9-week experimental window, where the design enhances the control group
+by incorporating pre-treatment observations from test groups B through F before their respective 4-week treatment
+periods begin. With 150 DMAs randomly assigned across seven groups, the enhanced Control group achieved a mean of
+2,136 sales per week (standard error = 335) compared to the Test group’s mean of 2,134 sales per week (standard error =
+368), with a two-sample t-test yielding t statistic = 0.03, p-value = 0.997, confirming no statistically significant difference
+between groups (<1% difference in means). The custom boxplot format displays the interquartile range (box), median
+(horizontal line within box), mean (thick horizontal line), and whiskers extending to mean ± 1 standard error, with no
+outliers shown. These values from a Fortune 500 company’s actual sales data demonstrate how the Rolling Thunder
+framework naturally improves balance through random assignment without stratification or re-weighting, supporting
+robust causal inference while maintaining simplicity, with DMA-level normalization in the analysis phase further
+ensuring treatment effects aren’t confounded by residual baseline differences.",,,,,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -14,7 +60,30 @@
 ,,,,,,
 ,,,,,,
 ,,,,,,
-"ROLLING THUNDER BALANCE CHECK(6 GROUPS, 4 WEEKS EACH)2,500CONTROLTREATMENT2,000WHISKERS: STANDARD ERROR1,5001,000500T STATISTIC = 0.00P-VALUE = 0.997CONTROLTREATMENT▲ This visualization demonstrates the balance achieved using the Rolling Thunder experimental framework with six testgroups (A-F) and one control group during a 9-week experimental window, where the design enhances the control groupby incorporating pre-treatment observations from test groups B through F before their respective 4-week treatmentperiods begin. With 150 DMAs randomly assigned across seven groups, the enhanced Control group achieved a mean of2,136 sales per week (standard error = 335) compared to the Test group’s mean of 2,134 sales per week (standard error =368), with a two-sample t-test yielding t statistic = 0.03, p-value = 0.997, confirming no statistically significant differencebetween groups (<1% difference in means). The custom boxplot format displays the interquartile range (box), median(horizontal line within box), mean (thick horizontal line), and whiskers extending to mean ± 1 standard error, with nooutliers shown. These values from a Fortune 500 company’s actual sales data demonstrate how the Rolling Thunderframework naturally improves balance through random assignment without stratification or re-weighting, supportingrobust causal inference while maintaining simplicity, with DMA-level normalization in the analysis phase furtherensuring treatment effects aren’t confounded by residual baseline differences.",,,,,,
+"ROLLING THUNDER BALANCE CHECK
+(6 GROUPS, 4 WEEKS EACH)
+2,500
+CONTROL
+TREATMENT
+2,000WHISKERS: STANDARD ERROR
+1,500
+1,000
+500
+T STATISTIC = 0.00
+P-VALUE = 0.997
+CONTROLTREATMENT
+▲ This visualization demonstrates the balance achieved using the Rolling Thunder experimental framework with six test
+groups (A-F) and one control group during a 9-week experimental window, where the design enhances the control group
+by incorporating pre-treatment observations from test groups B through F before their respective 4-week treatment
+periods begin. With 150 DMAs randomly assigned across seven groups, the enhanced Control group achieved a mean of
+2,136 sales per week (standard error = 335) compared to the Test group’s mean of 2,134 sales per week (standard error =
+368), with a two-sample t-test yielding t statistic = 0.03, p-value = 0.997, confirming no statistically significant difference
+between groups (<1% difference in means). The custom boxplot format displays the interquartile range (box), median
+(horizontal line within box), mean (thick horizontal line), and whiskers extending to mean ± 1 standard error, with no
+outliers shown. These values from a Fortune 500 company’s actual sales data demonstrate how the Rolling Thunder
+framework naturally improves balance through random assignment without stratification or re-weighting, supporting
+robust causal inference while maintaining simplicity, with DMA-level normalization in the analysis phase further
+ensuring treatment effects aren’t confounded by residual baseline differences.",,,,,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
