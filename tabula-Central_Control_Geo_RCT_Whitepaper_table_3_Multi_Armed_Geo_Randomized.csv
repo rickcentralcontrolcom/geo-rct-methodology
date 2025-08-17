@@ -103,7 +103,14 @@ significant lift in sales revenue of at least 3% in,This approach might seem too
 treatment DMAs compared to control DMAs,random chance sometimes create imbalanced,,,,,,,,,
 "during the 5-week test period, measured at the",groups? The key insight is that with 210 units and,,,,,,,,,
 95% confidence level.,,,,,,,,,,
-"2,136 sales per week (standard error = 335) compared to the Test group’s mean of 2,134 sales per week (standard error =368), with a two-sample t-test yielding t statistic = 0.03, p-value = 0.997, confirming no statistically significant differencebetween groups (<1% difference in means). The custom boxplot format displays the interquartile range (box), median(horizontal line within box), mean (thick horizontal line), and whiskers extending to mean ± 1 standard error, with nooutliers shown. These values from a Fortune 500 company’s actual sales data demonstrate how the Rolling Thunderframework naturally improves balance through random assignment without stratification or re-weighting, supportingrobust causal inference while maintaining simplicity, with DMA-level normalization in the analysis phase furtherensuring treatment effects aren’t confounded by residual baseline differences.",,,,,,,,,,
+"2,136 sales per week (standard error = 335) compared to the Test group’s mean of 2,134 sales per week (standard error =
+368), with a two-sample t-test yielding t statistic = 0.03, p-value = 0.997, confirming no statistically significant difference
+between groups (<1% difference in means). The custom boxplot format displays the interquartile range (box), median
+(horizontal line within box), mean (thick horizontal line), and whiskers extending to mean ± 1 standard error, with no
+outliers shown. These values from a Fortune 500 company’s actual sales data demonstrate how the Rolling Thunder
+framework naturally improves balance through random assignment without stratification or re-weighting, supporting
+robust causal inference while maintaining simplicity, with DMA-level normalization in the analysis phase further
+ensuring treatment effects aren’t confounded by residual baseline differences.",,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
