@@ -25,6 +25,8 @@ This repository contains materials and open-source guidance for **“How to Desi
 
 ---
 
+**[Read Full Paper (Raw Text)](Central_Control_Geo_RCT_Whitepaper_text_only.txt)**
+
 ## Overview
 
 This guide outlines best practices for **Geo-RCTs**—rigorous, scalable experiments using geographic regions (such as DMAs) to measure incremental advertising impact. Central Control’s “Rolling Thunder” and related frameworks offer statistical validity, transparency, and actionable business guidance for advertisers, agencies, and platforms.
@@ -209,5 +211,6 @@ C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package
 
 ## License
 Unless otherwise noted, this repository is released under **CC BY 4.0**.
+
 
 
