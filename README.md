@@ -179,6 +179,10 @@ the practical implementation of high-quality large-scale geographic RCTs.*
 
 
 ## Figures
+![White Board Session](Figures/figure_1_white_board_session.jpg)
+![Dashboard Controls](Figures/figure_2_dashboard_controls.jpg)
+![Publisher Chemistry](Figures/figure_2_publisher_chemistry.jpg)
+![Publisher Chemistry 1](Figures/figure_4_publisher_chemistry_1.jpg)
 
 
 
@@ -202,6 +206,7 @@ C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package
 
 ## License
 Unless otherwise noted, this repository is released under **CC BY 4.0**.
+
 
 
 
