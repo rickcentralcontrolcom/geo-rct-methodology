@@ -179,17 +179,11 @@ the practical implementation of high-quality large-scale geographic RCTs.*
 
 
 ## Figures
-- **Figure 1.** Publishers Chemistry1.  
-  ![Figure 1](figures/Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg1)
+![Description of Figure 1](Figures/figure_1.jpg)
+![Description of Figure 2](Figures/figure_2.jpg)
+![Description of Figure 3](Figures/figure_3.jpg)
+![Description of Figure 4](Figures/figure_4.png)
 
-- **Figure 2.** Pilot Dashboard.  
-  ![Figure 2](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg2)
-
-- **Figure 3.** Publishers Chemistry2.  
-  ![Figure 3](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg3)
-
-- **Figure 4.** White Board Session.  
-  ![Figure 4](Central_Control_Geo_RCT_Whitepaper.pdf-image-png)
 
 *(Add more figures as you extract them)*
 
@@ -211,6 +205,7 @@ C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package
 
 ## License
 Unless otherwise noted, this repository is released under **CC BY 4.0**.
+
 
 
 
