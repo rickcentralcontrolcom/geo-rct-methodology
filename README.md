@@ -179,6 +179,10 @@ the practical implementation of high-quality large-scale geographic RCTs.*
 
 
 ## Figures
+![Figure 1](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg1.jpg)
+![Figure 2](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg2.jpg)
+![Figure 3](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg3.jpg)
+![Figure 4](Central_Control_Geo_RCT_Whitepaper.pdf-image-png1.png)
 
 
 
@@ -202,6 +206,7 @@ C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package
 
 ## License
 Unless otherwise noted, this repository is released under **CC BY 4.0**.
+
 
 
 
