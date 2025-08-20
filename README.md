@@ -25,7 +25,7 @@ This repository contains materials and open-source guidance for **“How to Desi
 
 ---
 
-**[Read Full Paper (Raw Text)](Central_Control_Geo_RCT_Whitepaper_text_only.txt)**
+**[Read Full Paper (Raw Text)](Central_Control_Geo_RCT_Whitepaper.md)**
 
 ## Overview
 
@@ -206,6 +206,7 @@ C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package
 
 ## License
 Unless otherwise noted, this repository is released under **CC BY 4.0**.
+
 
 
 
