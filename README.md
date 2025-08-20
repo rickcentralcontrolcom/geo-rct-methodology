@@ -21,7 +21,8 @@ This repository contains materials and open-source guidance for **“How to Desi
 - [11. Conclusion](#11-conclusion)
 - [Appendix: Key Code Examples](#appendix-key-code-examples)
 - [About & Contact](#about--contact)
-📄 **[Download PDF Version](./Paper/Central_Control_Geo_RCT_Whitepaper.pdf)**
+
+
 
 ---
 
@@ -206,6 +207,7 @@ C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package
 
 ## License
 Unless otherwise noted, this repository is released under **CC BY 4.0**.
+
 
 
 
