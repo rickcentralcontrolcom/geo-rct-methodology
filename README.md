@@ -21,11 +21,12 @@ This repository contains materials and open-source guidance for **“How to Desi
 - [11. Conclusion](#11-conclusion)
 - [Appendix: Key Code Examples](#appendix-key-code-examples)
 - [About & Contact](#about--contact)
-- [PDF Version](#pdf-version)
+
+📄 **[Download PDF Version](./Central_Control_Geo_RCT_Whitepaper.pdf)**
 
 ---
 
-**[Read Full Paper (Raw Text)](Central_Control_Geo_RCT_Whitepaper_text_only.txt)**
+**[Read Full Paper (Raw Text)](Central_Control_Geo_RCT_Whitepaper.md)**
 
 ## Overview
 
@@ -179,17 +180,12 @@ the practical implementation of high-quality large-scale geographic RCTs.*
 
 
 ## Figures
-- **Figure 1.** Publishers Chemistry1.  
-  ![Figure 1](figures/Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg1)
+![Figure 1](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg1.jpg)
+![Figure 2](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg2.jpg)
+![Figure 3](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg3.jpg)
+![Figure 4](Central_Control_Geo_RCT_Whitepaper.pdf-image-png1.png)
 
-- **Figure 2.** Pilot Dashboard.  
-  ![Figure 2](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg2)
 
-- **Figure 3.** Publishers Chemistry2.  
-  ![Figure 3](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg3)
-
-- **Figure 4.** White Board Session.  
-  ![Figure 4](Central_Control_Geo_RCT_Whitepaper.pdf-image-png)
 
 *(Add more figures as you extract them)*
 
@@ -211,6 +207,19 @@ C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package
 
 ## License
 Unless otherwise noted, this repository is released under **CC BY 4.0**.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
