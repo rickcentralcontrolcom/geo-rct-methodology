@@ -1456,7 +1456,7 @@ The simulation requires the same data format as
 the actual experiment. (For a code example, see
 Appendix A, Example 2: Power Analysis Data
 Structure.)
-
+For the required data structure format, see [power_analysis_data_structure.py](./code/power_analysis_data_structure.py).
 
 For first-party data, this means:
 
@@ -3575,6 +3575,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
