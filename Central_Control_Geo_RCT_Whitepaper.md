@@ -897,7 +897,7 @@ experimental design.
 (To see code for how it would work in practice, see
 Appendix A, Example 1: Simple Randomization
 for Geographic RCT.)
-For the complete implementation, see [Simple Randomization Code](#simple-randomization-code).
+For the complete implementation, see [Simple Randomization Code](./code/simple_randomization.py).
 
 This approach might seem too simple – won’t
 random chance sometimes create imbalanced
@@ -3575,5 +3575,6 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
