@@ -897,7 +897,7 @@ experimental design.
 (To see code for how it would work in practice, see
 Appendix A, Example 1: Simple Randomization
 for Geographic RCT.)
-
+For the complete implementation, see [Simple Randomization Code](#simple-randomization-code).
 
 This approach might seem too simple – won’t
 random chance sometimes create imbalanced
@@ -2701,7 +2701,25 @@ APPENDIX A: CODE EXAMPLES
 EXAMPLE 1: SIMPLE RANDOMIZATION FOR GEOGRAPHIC RCT
 
 Referenced in: Randomization Logic section
+<a name="simple-randomization-code"></a>
+### Simple Randomization Code
 
+```python
+import pandas as pd
+import numpy as np
+# Set seed for reproducibility
+np.random.seed(42)
+# Read DMA list
+dmas = pd.read_csv("dma_list.csv")
+# Simple random assignment without replacement to avoid duplicate groupings
+dmas["arm"] = np.random.choice(["Treatment", "Control"],
+                              size=len(dmas),
+                              replace=False)
+# Check and print group size balance
+group_counts = dmas["arm"].value_counts()
+print("Group assignment counts:\n", group_counts)
+# Save assignments
+dmas.to_csv("geoRCT_assignments.csv", index=False)
 
 import pandas as pd
 import numpy as np
@@ -3557,3 +3575,4 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
