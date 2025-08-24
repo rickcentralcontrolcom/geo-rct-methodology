@@ -1532,7 +1532,7 @@ simulation:
 BY SALES/MONTH FOR VARIOUS EFFECT SIZES
 
 MINIMUM DETECTABLE EFFECT SIZE
-```0.1%
+0.1%
 
 0.2%
 
@@ -3573,6 +3573,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
