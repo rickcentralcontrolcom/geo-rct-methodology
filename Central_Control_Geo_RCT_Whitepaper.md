@@ -1640,6 +1640,7 @@ insensitive)
 
 • 8-week test: 80% power at 2.8% lift (marginal
 improvement for 60% more media cost)
+This section demonstrates ICC estimation and application. The complete implementation is in [icc_estimation.py](./code/icc_estimation.py).
 ESTIMATING AND APPLYING INTRACLASS
 CORRELATION COEFFICIENT (ICC)
 
@@ -1688,7 +1689,7 @@ weekly data.
 (For a code example, see Appendix A, Example 3:
 Estimating And Applying Intraclass Correlation
 Coefficient).
-[icc_estimation.py](./code/icc_estimation.py)
+
 
 SETTING POWER TARGETS AND
 MAKING DECISIONS
@@ -3575,6 +3576,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
