@@ -1570,37 +1570,34 @@ MONTHLY CONVERSIONS
 52.8% 44.9% 12.1% 0.5% 0.0% 0.0% 0.0%
 57.0% 23.7% 1.1% 0.0% 0.0% 0.0% 0.0%```
 
-▲
+
 Cell values show p-values from statistical tests at each combination of monthly conversions and minimum detectable
 effect size. This example shows the following assumed parameters: control fraction of 20%; 10 weeks total experiment time; 7 groups across
 all 210 DMAs; conversions distributed in proportion to population. Green cells: Statistically significant at the 95% confidence level (p < 0.05).
 Orange to red cells: Increasingly non-significant results (p ≥ 0.05), indicating lower power to detect the effect.
 
 
-•
-Calculate each DMA’s average weekly sales
+• Calculate each DMA’s average weekly sales
 during its 8-week pre-period
-•
-Compute the week-over-week growth rate
+• Compute the week-over-week growth rate
 during this baseline
-•
-Project expected sales during the test period
+• Project expected sales during the test period
 based on this trend
-•
+
 Express actual test-period sales as an index
 relative to this projection.
 This normalization
 is crucial: it transforms raw sales (which
 vary greatly by DMA size) into comparable
 lift indices, dramatically reducing variance.
-4.
-Randomly assign DMAs to treatment
+
+4. Randomly assign DMAs to treatment
 and control groups using the same
 randomization logic planned for the
 real experiment (typically equal odds of
 assignment to all experiment arms).
-5.
-Simulate a treatment effect by inflating
+
+5.Simulate a treatment effect by inflating
 normalized sales values in the treatment
 group during the test period by the
 hypothesized effect size (e.g., 3%, 5%). This
@@ -3576,6 +3573,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
