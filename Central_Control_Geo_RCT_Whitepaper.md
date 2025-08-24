@@ -1688,7 +1688,7 @@ weekly data.
 (For a code example, see Appendix A, Example 3:
 Estimating And Applying Intraclass Correlation
 Coefficient).
-
+[icc_estimation.py](./code/icc_estimation.py)
 
 SETTING POWER TARGETS AND
 MAKING DECISIONS
@@ -3575,6 +3575,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
