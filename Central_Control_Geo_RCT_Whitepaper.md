@@ -2080,7 +2080,7 @@ extraction process used for historical data.
 
 (For sample code, see Appendix A, Example 4:
 SQL to Python – Extract Raw Transactions.)
-
+For the data extraction implementation, see [extract_raw_transactions.py](./code/extract_raw_transactions.py).
 
 Then apply ZIP-to-DMA mapping.
 
@@ -3573,6 +3573,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
