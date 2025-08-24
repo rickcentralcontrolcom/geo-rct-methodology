@@ -21,11 +21,12 @@ This repository contains materials and open-source guidance for **“How to Desi
 - [11. Conclusion](#11-conclusion)
 - [Appendix: Key Code Examples](#appendix-key-code-examples)
 - [About & Contact](#about--contact)
-- [PDF Version](#pdf-version)
+
+📄 **[Download PDF Version](./Central_Control_Geo_RCT_Whitepaper.pdf)**
 
 ---
 
-**[Read Full Paper (Raw Text)](Central_Control_Geo_RCT_Whitepaper_text_only.txt)**
+**[Read Full Paper (Raw Text)](Central_Control_Geo_RCT_Whitepaper.md)**
 
 ## Overview
 
@@ -178,34 +179,64 @@ control, matched market tests), attribution, and other observational methods. Th
 the practical implementation of high-quality large-scale geographic RCTs.*
 
 
-## Figures
-![Figure 1](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg1.jpg)
-![Figure 2](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg2.jpg)
-![Figure 3](Central_Control_Geo_RCT_Whitepaper.pdf-image-jpg3.jpg)
-![Figure 4](Central_Control_Geo_RCT_Whitepaper.pdf-image-png1.png)
-
-
-
-*(Add more figures as you extract them)*
 
 ## Tables
-C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_10_Power_Grid.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_11-Compliance_Monitoring.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_12_CRT_Diag_Checks.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_13_Decision_Framework.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_1_Experiment_Process_Workflow.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_2_Rolling_Thunder_Design.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_3_Multi_Armed_Geo_Randomized.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_4._Weekly_Sales_Trend.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_5_Example_Sales_Data.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_6._Rolling_Thunder_Balance-Check.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_7_Sim_RT_3lift.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_8._Raw_Weekly_Sales_Data.csv"
-"C:\Users\jason\OneDrive\Desktop\central_control_geo_rct_repo_package\tabula-Central_Control_Geo_RCT_Whitepaper_table_9_Normalized_Weekly_Sales.csv"
+
+## Tables
+
+### Table 1: Experiment Process Workflow
+[![Table 1](./tables/Table_Image_1_Experiment_Process_Workflow.png)](./tables/Table_Image_1_Experiment_Process_Workflow.png)
+
+### Table 2: Rolling Thunder Multi-Armed Stepped CRT
+[![Table 2](./tables/Table_Image_2_Rolling_Thunder_Multi_Armed_Stepped_CRT.png)](./tables/Table_Image_2_Rolling_Thunder_Multi_Armed_Stepped_CRT.png)
+
+### Table 3: Example Multi-Armed Geographic RCE All DMAs
+[![Table 3](./tables/Table_Image_3_Example_Multi_Armed_Geographic_RCE_All_DMAs.png)](./tables/Table_Image_3_Example_Multi_Armed_Geographic_RCE_All_DMAs.png)
+
+### Table 4: Weekly Sales Trend Across Two Years Seasonality
+[![Table 4](./tables/Table_Image_4_Weekly_Sales_Trend_Across_Two_Years_Seasonality.png)](./tables/Table_Image_4_Weekly_Sales_Trend_Across_Two_Years_Seasonality.png)
+
+### Table 5: Example Sales Data
+[![Table 5](./tables/Table_Image_5_Example_Sales_Data.png)](./tables/Table_Image_5_Example_Sales_Data.png)
+
+### Table 6: Rolling Thunder Balance Check 6 Groups 4 Weeks
+[![Table 6](./tables/Table_Image_6_Rolling_Thunder_Balance_Check_6Groups_4Weeks.png)](./tables/Table_Image_6_Rolling_Thunder_Balance_Check_6Groups_4Weeks.png)
+
+### Table 7: Simulated Rolling Thunder 3% Lift
+[![Table 7](./tables/Table_Image_7_Simulated_Rolling_Thunder_3%Lift.png)](./tables/Table_Image_7_Simulated_Rolling_Thunder_3%Lift.png)
+
+### Table 8: Raw Sales By DMA Normalized Sales Index By DMA
+[![Table 8](./tables/Table_Image_8_Raw_Sales_By_DMA_Normalized_Sales_Index_By_DMA.png)](./tables/Table_Image_8_Raw_Sales_By_DMA_Normalized_Sales_Index_By_DMA.png)
+
+### Table 9: Power Grid P-value Estimates For Multi-armed RT Test Various Effect Sizes
+[![Table 9](./tables/Table_Image_9_Power_Grid_Pvalue_Estimates_For_Multiarmed_RT_Test_Various_Effect_Sizes.png)](./tables/Table_Image_9_Power_Grid_Pvalue_Estimates_For_Multiarmed_RT_Test_Various_Effect_Sizes.png)
+
+### Table 10: Example Randomized DMA List
+[![Table 10](./tables/Table_Image_10_Example_Randomized_DMA_List.png)](./tables/Table_Image_10_Example_Randomized_DMA_List.png)
+
+### Table 11: Compliance Monitoring Metrics
+[![Table 11](./tables/Table_Image_11_Compliance_Monitoring_Metrics.png)](./tables/Table_Image_11_Compliance_Monitoring_Metrics.png)
+
+### Table 12: Diagnostic Checks Simulated RCT Results
+[![Table 12](./tables/Table_Image_12_Diagnostic_Checks_Simulated_RCT_Results.png)](./tables/Table_Image_12_Diagnostic_Checks_Simulated_RCT_Results.png)
+
+### Table 13: Decision Framework
+[![Table 13](./tables/Table_Image_13_Decision_Framework.png)](./tables/Table_Image_13_Decision_Framework.png)
+
+### Table 14: Recalibrating Impact Response Curve In MMM
+[![Table 14](./tables/Table_Image_14_Recalibrating_Imact_Response_Curve_In_MMM.png)](./tables/Table_Image_14_Recalibrating_Imact_Response_Curve_In_MMM.png)
 
 ## License
 Unless otherwise noted, this repository is released under **CC BY 4.0**.
+
+
+
+
+
+
+
+
+
 
 
 
