@@ -1503,7 +1503,7 @@ Step-by-Step Simulation Process:
 
 
 (For sample code, see Appendix A, Example
-
+For the situation-based power estimation implementation, see [situation_based_power_estimation.py](./code/situation_based_power_estimation.py).
 
 13: Power Simulation Framework for detailed
 implementation.)
@@ -3578,6 +3578,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
