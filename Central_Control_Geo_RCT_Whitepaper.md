@@ -2291,7 +2291,7 @@ Use the experimental estimate as a Bayesian prior.
 (For sample code, see Appendix A, Example 11:
 Update Marketing Mix Model with Experimental
 Prior)
-
+For the MMM experimental prior update implementation, see [update_mmm_experimental_prior.py](./code/update_mmm_experimental_prior.py).
 
 Plan Next Tests:
 
@@ -3577,6 +3577,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
