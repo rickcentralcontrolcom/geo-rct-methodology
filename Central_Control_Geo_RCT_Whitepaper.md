@@ -3345,7 +3345,9 @@ return p_val < alpha􀀄
 # Example usage􀀄
 # historical_data = pd.read_csv(‘historical_sales_data.csv’)􀀄
 # power_results = run_power_simulation(historical_data)􀀄
-# print(power_results)􀀄````
+# print(power_results)􀀄
+```
+
 
 APPENDIX B: GLOSSARY
 
@@ -3578,6 +3580,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
