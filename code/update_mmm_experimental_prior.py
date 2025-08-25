@@ -17,3 +17,4 @@ pooled_estimate = (
 pooled_se = np.sqrt(1 / (1 / prior_sd**2 + 1 / mmm_se**2))􀀄
 print(f"Updated coefficient: {pooled_estimate:.3f}")􀀄
 print(f"Updated standard error: {pooled_se:.3f}")􀀄
+
