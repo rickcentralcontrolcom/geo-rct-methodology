@@ -2178,6 +2178,7 @@ Example 9 – Leave-One-Out Sensitivity Analysis
 For the leave-one-out sensitivity analysis implementation, see [leave_one_out_sensitivity.py](./code/leave_one_out_sensitivity.py).
 •
 Example 10 – Pre-Period Balance Check
+For the pre-period balance check implementation, see [pre_period_balance_check.py](./code/pre_period_balance_check.py).
 SUMMARY TABLE: DIAGNOSTIC CHECKS ON SIMULATED RCT RESULTS
 
 CHECK ESTIMATE P-VALUE INTERPRETATION
@@ -3576,6 +3577,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
