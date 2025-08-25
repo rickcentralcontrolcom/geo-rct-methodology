@@ -2124,6 +2124,7 @@ Data Quality Checks.)
 
 PRIMARY ANALYSIS: T-TEST
 ON NORMALIZED VALUES
+For the primary analysis t-test implementation, see [primary_analysis_ttest.py](./code/primary_analysis_ttest.py).
 
 The core analysis follows these steps:
 
@@ -3573,6 +3574,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
