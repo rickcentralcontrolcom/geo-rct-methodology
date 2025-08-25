@@ -2175,6 +2175,7 @@ Example 8 – Difference-in-Differences Cross-Check
 For the difference-in-differences cross-check implementation, see [difference_in_differences_crosscheck.py](./code/difference_in_differences_crosscheck.py).
 •
 Example 9 – Leave-One-Out Sensitivity Analysis
+
 •
 Example 10 – Pre-Period Balance Check
 SUMMARY TABLE: DIAGNOSTIC CHECKS ON SIMULATED RCT RESULTS
@@ -3575,6 +3576,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
