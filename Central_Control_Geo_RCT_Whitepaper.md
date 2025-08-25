@@ -2087,7 +2087,7 @@ Then apply ZIP-to-DMA mapping.
 
 (For sample code, see Appendix A, Example 5:
 Apply ZIP to DMA Mapping and Aggregate.)
-
+For the ZIP-to-DMA mapping implementation, see [zip_to_dma_mapping.py](./code/zip_to_dma_mapping.py).
 
 For Syndicated Data:
 
@@ -3573,6 +3573,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
