@@ -2172,6 +2172,7 @@ For sample code, see Appendix A:
 
 •
 Example 8 – Difference-in-Differences Cross-Check
+
 •
 Example 9 – Leave-One-Out Sensitivity Analysis
 •
@@ -3574,6 +3575,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
