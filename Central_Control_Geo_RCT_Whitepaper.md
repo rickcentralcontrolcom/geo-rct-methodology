@@ -2112,7 +2112,7 @@ DATA QUALITY CHECKS
 If using sales volume (continuous), check
 distribution of normalized values.
 
-
+For the data quality checks implementation, see [data_quality_checks.py](./code/data_quality_checks.py).
 For count data, standard t-test typically suffices
 unless counts are very low (< 5 per DMA-week), in
 which case consider Poisson regression.
@@ -3573,6 +3573,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
