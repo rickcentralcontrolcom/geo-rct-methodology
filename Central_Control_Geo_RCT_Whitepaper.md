@@ -1154,7 +1154,7 @@ Groups DMAs by key characteristics before
 randomizing within strata. (For sample
 code, see Appendix A, Example 12: Stratified
 Randomization.)
-
+For the stratified randomization implementation, see [stratified_randomization.py](./code/stratified_randomization.py).
 
 This guarantees balance on stratification variables
 but requires careful selection of stratifying
@@ -3577,6 +3577,7 @@ or modification, please contact info@centralcontrol.com
 
 
 
+
 
 
 
