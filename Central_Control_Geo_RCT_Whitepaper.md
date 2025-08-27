@@ -1,8 +1,16 @@
-# HOW TO DESIGN A GEOGRAPHIC RANDOMIZED CONTROLLED TRIAL
+# Geographic Randomized Controlled Trials (Geo RCTs)
 
-A DETAILED GUIDE TO "ROLLING THUNDER" AND OTHER TRANSPARENT, UNBIASED AND REPLICABLE TECHNIQUES FOR MEASURING INCREMENTAL ADVERTISING IMPACT WITH EXPERIMENTAL DESIGN
+This repository provides open-source best practices for for conducting geographic randomized controlled trials (Geo RCTs) for measuring incremental sales effect of advertising cammpaigns. It includes details on one design type in particular, a **multi-armed stepped experimental design** that has particular advantages in terms of statistical strength and balance in using geographic regions, namely designated market areas (DMAs), as units of the experiment. It also covers other techniques for achieving statistical strength and balance with simpler experimental designs, including two-celled tests (test and control), including stratefied randomization, matched-pair randomization, covariate-constrained randomization and more.
 
-TURN AD PERFORMANCE CERTAINTY INTO MARKET ADVANTAGE
+These approaches ars designed to help advertisers, agencies, and researchers measure the causal impact of advertising across large geographic regions with improved statistical power and transparency.
+
+The goal of publishing this methodology openly is to make it easier for practitioners to understand, evaluate, and apply Geo RCTs in their own work. The repository includes:
+- A detailed write-up of the methodology (`README.md`)
+- Code examples (`/code/`) for running simulations and analyses
+- Supporting tables and reference materials (`/tables/`)
+- A PDF version of the original whitepaper (`/Central_Control_Geo_RCT_Whitepaper.pdf`)
+
+We welcome feedback, discussion, and contributions from the measurement community.
 
 ## CONTENTS
 
@@ -22,9 +30,7 @@ TURN AD PERFORMANCE CERTAINTY INTO MARKET ADVANTAGE
 
 ## INTRODUCTION
 
-Incremental return on ad spend (iROAS) by using large-scale geographic randomized controlled trials (RCT). This article provides a detailed explanation of how to design and execute such experiments.
-
-Those previous writings covered extensively why geo experiments offer the working in your marketing mix compared to user-level experiments, quasi-experiments (e.g., synthetic control, matched market tests), attribution, and other observational methods. This piece focuses on how: the practical implementation of high-quality large-scale geographic RCTs.
+Incremental return on ad spend (iROAS) by using large-scale geographic randomized controlled trials (RCT). This document provides a detailed explanation of how to design and execute such experiments.
 
 ### EXPERIMENT PROCESS WORKFLOW
 
@@ -32,7 +38,7 @@ Those previous writings covered extensively why geo experiments offer the workin
 
 DESIGN EXPERIMENTS TO ANSWER SPECIFIC QUESTIONS. PICK THE AMONG MULTIPLE TEST DESIGNS TO BEST SUIT REQUIREMENTS. → CONDUCT POWER ANALYSIS TO PRE-TEST DESIGN'S STATISTICS AND FIX ON PARAMETER VARIABLES. → PRODUCE AND SHARE EXPERIMENT DESIGN DOCUMENT WITH KEY STAKEHOLDERS. → MANAGE AND MONITOR EACH STAGE OF THE EXPERIMENTS. → UNDERSTAND TEST RESULTS CLEARLY, TAKE ACTION ON BUSINESS DECISION. → ANALYZE A LARGE BODY OF RCT RESULTS ACROSS CAMPAIGNS FOR BEST EVIDENCE OF WHAT DRIVES OUTCOMES.
 
-This workflow summarizes the end-to-end process for running advertising experiments. The final stage — benchmarking — compiles results from all experiments into a growing evidence base. As advertisers, agencies, and media companies accumulate dozens, then hundreds, or even thousands of tests, these benchmarks become a powerful source of insight. They reveal what truly works in advertising and provide expected effect sizes by media channel, ad format, partner, product category, and other key dimensions.
+The workflow above summarizes the end-to-end process for running advertising experiments. The final stage — benchmarking — compiles results from all experiments into a growing evidence base. As advertisers, agencies, and media companies accumulate dozens, then hundreds, or even thousands of tests, these benchmarks become a powerful source of insight. They reveal what truly works in advertising and provide expected effect sizes by media channel, ad format, partner, product category, and other key dimensions.
 
 ## FIRST STEPS
 
@@ -62,7 +68,7 @@ Next, we define the key parameters that will structure the experiment.
 
 In an experiment, the independent variable is what you modify between test and control groups to measure its effect on the outcome variable. For advertising experiments, this means the ad campaign or media channel being tested, whether branded search, social media, television, or another tactic.
 
-Since we're designing geographic experiments, it's crucial to verify that your chosen medium can reliably target different geographic units sufficiently for your testing objectives. This capability varies significantly across media types and platforms. Examples, as of this writing: Linear TV can be tested effectively using DMA targeting through providers like Ampersand or Nexstar, but individual networks like CBS or AMC may lack sufficient scale or targeting granularity. Spotify enables geo-targeting for streaming music and run-of-network podcasts but not for host-read spots on specific shows. Amazon supports geo-targeting for display and video on-site and their DSP but not for sponsored product keywords that comprise most retail media budgets. ZIP codes are not a stable testing unit for most media.
+Since we're designing geographic experiments, it's crucial to verify that your chosen medium can reliably target different geographic units sufficiently for your testing objectives. This capability varies significantly across media types and platforms. Examples, as of this writing: Linear TV can be tested effectively using DMA targeting through providers like Ampersand or Nexstar, but individual networks like CBS or AMC may lack sufficient scale or targeting granularity. Spotify enables geo-targeting for streaming music and run-of-network podcasts but not for host-read spots on specific shows. Amazon supports geo-targeting for display and video on-site and their DSP but not for sponsored product keywords that comprise most retail media budgets. ZIP codes are not a reliably accurate testing unit for most media.
 
 **DEPENDENT VARIABLE: KEY PERFORMANCE INDICATOR (KPI)**
 
@@ -70,15 +76,15 @@ The dependent variable is the outcome you're measuring, ideally sales. The funda
 
 Sales is the preferred KPI as it directly measures iROAS, customer acquisition cost (CAC), and cost per acquisition (CPA), all metrics that should reflect true incrementality. Other outcomes such as foot traffic, search activity, web visitation, and brand lift can also be measured, but should be measured with RCT to know if the ads are having a true causal effect.
 
-Critically, ensure you have reliable KPI data that aligns with the experimental structure. For geographic experiments, postal codes in customer databases are ideal — no device graphs, tracking pixels, or clean rooms required. Whether from first-party CRM systems or partner panels, ZIP codes easily roll up to most standard geographic units, allowing straightforward determination of whether each customer belonged to test or control groups at the time of conversion.
+Critically, ensure you have reliable KPI data that aligns with the experimental structure. For geographic experiments, postal codes in customer databases are ideal — no device graphs, tracking pixels, or clean rooms required. Whether from first-party CRM systems or partner panels, ZIP codes easily roll up to most standard geographic units, allowing straightforward determination of whether each customer belonged to test or control groups at the time of conversion. That doesn't work with non-standard geographic units such as lat/long radial or hexagonal zones. 
 
 **EXPERIMENT UNIT: GEOGRAPHIC REGIONS**
 
-That doesn't work with custom units such as radial or hexagonal zones. In RCTs, "experiment units" are the smallest entities to which treatment is independently applied and which are subject to randomization. For advertising, these could be individuals, devices, households, or geographic regions.
+In RCTs, "experiment units" are the smallest entities to which treatment is independently applied and which are subject to randomization. For advertising, these could be individuals, devices, households, or geographic regions.
 
-As explained in our article "Advertisers seeking accurate ROAS should use large-scale, randomized geo tests," user- and household-level targeting provides false precision. User-level tracking accuracy has generally been overstated by vendors, and Apple's App Tracking Transparency (ATT) and Safari browser have further degraded online tracking capabilities.
+As explained in Central Control's article "Advertisers seeking accurate ROAS should use large-scale, randomized geo tests," user- and household-level targeting provides false precision. User-level tracking accuracy has generally been overstated by vendors, and Apple's App Tracking Transparency (ATT) and Safari browser have further degraded online tracking capabilities.
 
-The internet's promise of 1:1 targeting was never fully realized. Cookies are inherently unstable, regularly deleted and lacking persistent identity. Industry responded with complex identity graphs and clean rooms. Users pushed back with ad blockers, while governments enacted privacy laws like GDPR. As a result, when marketers attempt to match campaign-exposed audiences to first-party outcome data, match rates typically range from 50-60% or less.
+The internet's promise of 1:1 targeting was never fully realized. Cookies are inherently unstable, regularly deleted and lacking persistent identity. Industry responded with complex identity graphs and clean rooms. Users pushed back with ad blockers, while governments enacted privacy laws such as GDPR. As a result, when marketers attempt to match campaign-exposed audiences to first-party outcome data, match rates typically range from 50-60% or less.
 
 Even at 80%, this introduces too much noise to reliably detect typical advertising effects of 1-5% with statistical confidence.
 
@@ -86,17 +92,17 @@ This explains the rise of geographic experiments. Using geo regions as experimen
 
 Geographic experiments offer multiple advantages. They sidestep privacy concerns by eliminating the need for personally identifiable information. Sales and other KPIs align naturally with this structure through ZIP-coded transaction data from CRM systems, without privacy implications or technical overhead.
 
-Most media can accurately target large geographic regions, particularly Nielsen's designated market areas (DMAs). While postal codes, cable zones, core based statistical areas (CBSAs), and states are alternatives, each presents challenges. Postal codes would be ideal, but as we've written in AdExchanger, media companies currently infer them from IP addresses with high error rates or accumulate multiple ZIPs per user account, making them unreliable for experimentation without additional system enhancements.
+Most media can accurately target large geographic regions, notably Nielsen's designated market areas (DMAs). While postal codes, cable zones, core based statistical areas (CBSAs), and states are alternatives, each presents challenges. Postal codes would be ideal, but, as discussed in the AdExchanger article "ZIP Codes: The Simple Fix For Advertising ROI Measurement," media companies currently infer ZIPs from IP addresses with high error rates or accumulate multiple ZIPs per user account, making them unreliable for experimentation without additional system enhancements.
 
 Geographic regions suitable for experimentation must be mutually exclusive and sufficiently isolated to minimize spillover between test and control groups, upholding the experimentation best practice known as Stable Unit Treatment Value Assumption (SUTVA). Ideally, units should also be collectively exhaustive (MECE: mutually exclusive and collectively exhaustive).
 
-DMAs meet these criteria well. They're mutually exclusive and collectively exhaustive across the US. Most people don't commute between DMAs — while NYC and Philadelphia DMAs border each other, their populations generally live and work within one or the other. With 210 US DMAs, randomization can balance the many factors affecting regional sales: income levels, education, competitive mixes, weather, and more. Critically, virtually all media types can be targeted reliably by DMA in the US, a practice established since the 1950s.
+DMAs meet these criteria well. They're mutually exclusive and collectively exhaustive across the US. Most people don't commute between DMAs — while NYC and Philadelphia DMAs border each other, their populations generally live and work within one or the other. With 210 US DMAs, randomization (as discussed further below) can balance the many factors affecting regional sales: income levels, education, competitive mixes, weather, and more. Critically, many media types can be targeted reliably by DMA in the US, a practice established since the 1950s.
 
-Outside the US, metro areas or postal-code clusters typically work best.
+Outside the US, metro areas or postal-code clusters typically work best for the same purpose of geo experiments.
 
-Bear in mind, we're talking here about the RCT subclass of cluster randomized trials, so don't confuse this approach with matched-market tests (MMT) or synthetic control method (SCM). Those are forms of quasi-experiments, a scientific designation that means "not as good as real experiments," defined by a lack of randomization of assignments of test and control arms. This paper focuses on how to conduct geo RCTs for iROAS measurement and doesn't get into why CRT provides categorically better evidence than MMT or SCM. For more on that discussion, refer to the articles cited in Footnote 1.
+Bear in mind, we're talking here about the RCT subclass of cluster randomized trials, so don't confuse this approach with matched-market tests (MMT) or synthetic control method (SCM). Those are forms of quasi-experiments, a scientific designation that means "not as good as real experiments," defined by a lack of randomization of assignments of test and control arms. This paper focuses on how to conduct geo RCTs for iROAS measurement and doesn't get into why CRT provides categorically better evidence than MMT or SCM. For more on that discussion, refer to articles including "Advertisers Seeking Cccurate ROAS Should Use Large-Scale, Randomized Geo Tests," "Recession-Proofing Your Ad Mix: Measure Twice, Cut Once" and "Gain Market Share by Disrupting Bad Ad Measurement" on Central Control's blog or LinkedIn page.
 
-For this paper, we will focus on large-scale randomized geographic experiments using DMAs as the experimental unit.
+For this document, we focus on large-scale randomized geographic experiments using U.S. DMAs as the experimental unit, though these techniques can also be applied in other countries by targeting metro areas or postal code clusters.
 
 ## SELECT DESIGN TYPE
 
@@ -106,7 +112,7 @@ Different business questions give rise to different experimental design choices.
 
 Those include:
 
-- **'Rolling Thunder': Multi-armed, stepped CRT:** This design offers greater statistical power than a traditional two-celled test by generating many independent contrasts across time and treatment arms. Each group enters treatment in a staggered sequence and remains in for a fixed duration, creating repeated observations both within and across DMAs. This structure increases the precision of the causal estimate while reducing sensitivity to outliers or time-based shocks. The design is particularly well-suited for cessation testing: by phasing off the media gradually, advertisers can closely monitor sales impact, minimize the risk of revenue loss, and halt the test early if needed.
+- ** Multi-armed, stepped CRT:** This design, nicknamed "Rolling Thunder," offers greater statistical power than a traditional two-celled test by generating many independent contrasts across time and treatment arms. Each group enters treatment in a staggered sequence and remains in for a fixed duration, creating repeated observations both within and across DMAs. This structure increases the precision of the causal estimate while reducing sensitivity to outliers or time-based shocks. The design is  well-suited for cessation testing: by phasing off the media gradually, advertisers can closely monitor sales impact, minimize the risk of revenue loss, and halt the test early if needed. It is just as applicable for introduction testing. [See Image_01_Multi_Armed_Stepped_CRT_aka_Rolling_Thunder]
 
 - **Targeting Test:** To see if the iROAS of a targeting technique pays off, this three-armed design includes one test group for targeting, one test group for minimally targeted media using the same creative, and one unexposed control group.
 
@@ -849,3 +855,4 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
 © 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+
