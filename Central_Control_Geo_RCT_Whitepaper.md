@@ -268,6 +268,8 @@ For the complete implementation, see [simple_randomization.py](./code/simple_ran
 
 This approach might seem too simple — won't random chance sometimes create imbalanced groups? The key insight is that with 210 units and our comprehensive power analysis methodology, simple randomization works remarkably well, particularly in the multi-armed, stepped design dubbed Rolling Thunder.
 
+<img src="images/image_05_balance_check.jpg" alt="Randomization check for multi-armed stepped CRT" width="600">
+
 **OUR SIMULATION-BASED VALIDATION PROCESS**
 
 We run thousands of Monte Carlo simulations using ideally two years of historical weekly sales data. Each simulation:
@@ -863,6 +865,7 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
 © 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+
 
 
 
