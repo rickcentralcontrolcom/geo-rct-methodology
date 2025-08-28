@@ -172,6 +172,8 @@ Decide whether to measure lift only during exposure or include a tail period to 
 
 Ensure that the pre-period and test period reflect comparable seasonal patterns. Avoid scheduling the experiment so that only one period includes major events like holidays, back-to-school, or Black Friday, unless both periods are expected to show similar seasonal dynamics. Misaligned timing can introduce artificial differences that may be mistaken for treatment effects. Marketing mix models can be used to create seasonally adjusted conversions in situations where bridging a "seasonal change" is unavoidable.
 
+<img src="images/image_03_two-year_seasonality.jpg" alt="National weekly sales trend across two years, showing seasonality" width="600">
+
 **GEOGRAPHIC CLUSTER SPECIFICATION**
 
 *Unit Definition*
@@ -859,6 +861,7 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
 © 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+
 
 
 
