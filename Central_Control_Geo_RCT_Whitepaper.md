@@ -226,6 +226,8 @@ While sales is the preferred outcome metric, other KPIs can be substituted in th
 
 **WHERE POSSIBLE, USE DAILY KPI AGGREGATIONS, WHICH PROVIDE MORE STATISTICAL POWER THAN WEEKLY. AVOID MONTHLY ROLL-UPS.**
 
+<img src="images/image_04_sample_sales_data_structure.jpg" alt="Sample sales data structure" width="300">
+
 ### FORMULATE HYPOTHESIS
 
 A good experimental hypothesis is a clear, testable statement about the expected causal effect of a treatment. It should specify:
@@ -861,6 +863,7 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
 © 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+
 
 
 
