@@ -114,7 +114,7 @@ Those include:
 
 - ** Multi-armed, stepped CRT:** This design, nicknamed "Rolling Thunder," offers greater statistical power than a traditional two-celled test by generating many independent contrasts across time and treatment arms. Each group enters treatment in a staggered sequence and remains in for a fixed duration, creating repeated observations both within and across DMAs. This structure increases the precision of the causal estimate while reducing sensitivity to outliers or time-based shocks. The design is  well-suited for cessation testing: by phasing off the media gradually, advertisers can closely monitor sales impact, minimize the risk of revenue loss, and halt the test early if needed. It is just as applicable for introduction testing.
 
-<img src="images/image_01_multi_armed_stepped_crt_aka_rolling_thunder" alt="Diagram of multi-armed stepped design" width="600">
+<img src="images/image_01_multi_armed_stepped_crt_aka_rolling_thunder.jpg" alt="Diagram of multi-armed stepped design" width="600">
 
 - **Targeting Test:** To see if the iROAS of a targeting technique pays off, this three-armed design includes one test group for targeting, one test group for minimally targeted media using the same creative, and one unexposed control group.
 
@@ -857,5 +857,6 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
 © 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+
 
 
