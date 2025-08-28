@@ -130,6 +130,8 @@ Practitioners may opt to have different ratios of the various arms of the experi
 
 The analysis for each of the designs mentioned above functions similarly.
 
+<img src="images/image_02_example_multi-armed_geo_experiment_design.jpg" alt="Example of Multi-armed Geo Experiment Design" width="600">
+
 ## DESIGN THE EXPERIMENT
 
 With the business problem defined and the experimental approach selected we can now proceed to the detailed design.
@@ -857,6 +859,7 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
 © 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+
 
 
 
