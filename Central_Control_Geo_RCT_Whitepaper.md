@@ -871,9 +871,14 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 
 **ACKNOWLEDGEMENTS:**
 
-Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
+Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Assistant Professor of Data Science at the St. Thomas University, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, and Jason Wertheimer, Head of Client Success, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
-© 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+© 2025 by the authors. This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
+You are free to share and adapt this material, provided appropriate credit is given.
+See https://creativecommons.org/licenses/by/4.0/
+
+For questions, please contact info@centralcontrol.com
+
 
 
 
