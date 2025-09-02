@@ -290,6 +290,10 @@ This process is repeated hundreds or thousands of times with different test wind
 
 The pre-period normalization is particularly important. By normalizing each DMA to its own 8-week trend before treatment, we are effectively controlling for many potential confounders without having to explicitly model them. The Rolling Thunder design further enhances balance by incorporating the pre-treatment weeks from each test group into the control pool. This staggered entry means that test groups B through F contribute their early weeks as additional control observations, naturally increasing the effective control sample size and improving the representativeness of the control group across different time periods. This addresses the practical concern that with only 210 units, chance alone might produce treatment and control groups that differed systematically on important variables.
 
+<img src="images/image_06_simulated_multi-arm_crt_3pp_lift.jpg" alt="Simulation, based on real data, of 3% lift with multi-armed cluster randomized trial" width="600">
+
+<img src="images/image_07_normalized_sales_by_dma.jpg" alt="Pre-period Normalization of Weekly Sales by DMA" width="600">
+
 **ALTERNATIVE RANDOMIZATION APPROACHES**
 
 Our simulation analyses demonstrate that the Rolling Thunder design inherently improves balance without requiring other such complex techniques. By incorporating the pre-treatment periods from all test groups (except the first) into the control group, this approach naturally enhances balance by leveraging observations from the same DMAs that will later receive treatment. The enhanced control group contains data from nearly all DMAs, more accurately reflecting the full population variance and making the framework robust against initial randomization imbalances. This natural balancing, combined with DMA-level normalization to pre-period means, typically provides sufficient statistical power for detecting modest lift effects. Certain situations may still benefit from more sophisticated approaches, such as these:
@@ -865,6 +869,7 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
 © 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+
 
 
 
