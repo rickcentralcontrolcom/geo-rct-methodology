@@ -364,7 +364,7 @@ For the situation-based power estimation implementation, see [situation_based_po
 
 8. Repeat this process thousands of times, with different test windows, treatment assignments, and durations to build a robust empirical distribution of power outcomes.
 
-<img src="images/image_08_power_grid_multi-armed_crt_power_analysis" alt="Power Grid: P-Value Estimates For Multi-Armed Rolling Thunder Test By Sales/Month For Various Effect Sizes" width="600">
+<img src="images/image_08_power_grid_multi-armed_crt_power_analysis.jpg" alt="Power Grid: P-Value Estimates For Multi-Armed Rolling Thunder Test By Sales/Month For Various Effect Sizes" width="600">
 
 **KEY SIMULATION OUTPUTS**
 
@@ -871,6 +871,7 @@ Rick Bruner is CEO and founder of Central Control. He has spent 25+ years at the
 Various contributors provided valuable input to the production of this paper, namely these individuals: John Chandler, PhD, Head of Data Science and Clinical Professor of Marketing at the University of Montana, for help in designing many of these experimental techniques and technical review of the paper; Kumi Harischandra, research scientist, for technical review of the paper; Campbell Foster, Chief Commercial Officer, for editing, and Ben Munday, Creative Director of Munday Design, for graphic design.
 
 © 2025 Central Control. All rights reserved. For licensing or modification, please contact info@centralcontrol.com
+
 
 
 
